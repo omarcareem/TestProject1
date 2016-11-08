@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="96331" started-at="2016-10-31T11:30:35Z" finished-at="2016-10-31T11:32:12Z">
+    <groups>
+      <group name="hybridTestGroup">
+        <method signature="ActionDriver.myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFTest" class="com.hybrid.test.ActionDriver"/>
+      </group> <!-- hybridTestGroup -->
+    </groups>
+    <test name="Default test" duration-ms="96331" started-at="2016-10-31T11:30:35Z" finished-at="2016-10-31T11:32:12Z">
+      <class name="com.hybrid.test.ActionDriver">
+        <test-method status="PASS" signature="myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFTest" duration-ms="20361" started-at="2016-10-31T17:00:37Z" data-provider="testData" finished-at="2016-10-31T17:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ChromeTest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TS001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Open a browser window]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[openBrowser]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFTest -->
+        <test-method status="PASS" signature="myKDFAfterMethod([Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFAfterMethod" is-config="true" duration-ms="1839" started-at="2016-10-31T17:00:57Z" finished-at="2016-10-31T17:00:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2b251229]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=myKDFTest status=SUCCESS method=ActionDriver.myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFAfterMethod -->
+        <test-method status="PASS" signature="myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFTest" duration-ms="5698" started-at="2016-10-31T17:00:59Z" data-provider="testData" finished-at="2016-10-31T17:01:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ChromeTest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TS002]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Navigate to glance login page]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[navigateToURL]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/glance/index.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFTest -->
+        <test-method status="PASS" signature="myKDFAfterMethod([Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFAfterMethod" is-config="true" duration-ms="18045" started-at="2016-10-31T17:01:05Z" finished-at="2016-10-31T17:01:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@ecb57e0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=myKDFTest status=SUCCESS method=ActionDriver.myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFAfterMethod -->
+        <test-method status="PASS" signature="myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFTest" duration-ms="64" started-at="2016-10-31T17:01:23Z" data-provider="testData" finished-at="2016-10-31T17:01:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ChromeTest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TS003]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Wait till page gets load]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[waitForPageTitle]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GLANCE | Gamification Leaderboard and Notification Center]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFTest -->
+        <test-method status="PASS" signature="myKDFAfterMethod([Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFAfterMethod" is-config="true" duration-ms="451" started-at="2016-10-31T17:01:23Z" finished-at="2016-10-31T17:01:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@47f63ab6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=myKDFTest status=SUCCESS method=ActionDriver.myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFAfterMethod -->
+        <test-method status="PASS" signature="myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFTest" duration-ms="592" started-at="2016-10-31T17:01:23Z" data-provider="testData" finished-at="2016-10-31T17:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ChromeTest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TS004]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter email address]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[enterText]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[login_id]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFTest -->
+        <test-method status="PASS" signature="myKDFAfterMethod([Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFAfterMethod" is-config="true" duration-ms="1710" started-at="2016-10-31T17:01:24Z" finished-at="2016-10-31T17:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7688a7a2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=myKDFTest status=SUCCESS method=ActionDriver.myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFAfterMethod -->
+        <test-method status="PASS" signature="myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFTest" duration-ms="203" started-at="2016-10-31T17:01:26Z" data-provider="testData" finished-at="2016-10-31T17:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ChromeTest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TS005]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter Password]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[enterText]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pwd]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[mypass]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFTest -->
+        <test-method status="PASS" signature="myKDFAfterMethod([Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFAfterMethod" is-config="true" duration-ms="282" started-at="2016-10-31T17:01:26Z" finished-at="2016-10-31T17:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5b5b97a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=myKDFTest status=SUCCESS method=ActionDriver.myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFAfterMethod -->
+        <test-method status="PASS" signature="myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFTest" duration-ms="291" started-at="2016-10-31T17:01:26Z" data-provider="testData" finished-at="2016-10-31T17:01:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ChromeTest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TS006]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Click Sign In button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[clickButton]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[valEncrpt]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFTest -->
+        <test-method status="PASS" signature="myKDFAfterMethod([Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFAfterMethod" is-config="true" duration-ms="42644" started-at="2016-10-31T17:01:27Z" finished-at="2016-10-31T17:02:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5da3fb83]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=myKDFTest status=SUCCESS method=ActionDriver.myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFAfterMethod -->
+        <test-method status="PASS" signature="myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFTest" duration-ms="459" started-at="2016-10-31T17:02:09Z" data-provider="testData" finished-at="2016-10-31T17:02:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ChromeTest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TS007]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Click link]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[clickLink]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//a[@class='user-profile dropdown-toggle']]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFTest -->
+        <test-method status="PASS" signature="myKDFAfterMethod([Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFAfterMethod" is-config="true" duration-ms="281" started-at="2016-10-31T17:02:10Z" finished-at="2016-10-31T17:02:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@38d5857c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=myKDFTest status=SUCCESS method=ActionDriver.myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFAfterMethod -->
+        <test-method status="PASS" signature="myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFTest" duration-ms="736" started-at="2016-10-31T17:02:10Z" data-provider="testData" finished-at="2016-10-31T17:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ChromeTest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TS008]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Click logout]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[clickLink]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//li/a[contains(text(),'Log Out')]]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFTest -->
+        <test-method status="PASS" signature="myKDFAfterMethod([Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be]" name="myKDFAfterMethod" is-config="true" duration-ms="169" started-at="2016-10-31T17:02:11Z" finished-at="2016-10-31T17:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4a2ead0a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=myKDFTest status=SUCCESS method=ActionDriver.myKDFTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int)[pri:0, instance:com.hybrid.test.ActionDriver@39d12be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myKDFAfterMethod -->
+      </class> <!-- com.hybrid.test.ActionDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
